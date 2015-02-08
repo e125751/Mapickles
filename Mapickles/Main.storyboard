@@ -146,9 +146,6 @@
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="selectedFoot:" destination="fQz-Mp-9OI" eventType="touchDown" id="zAk-On-Yhn"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbw-2I-lUE">
                                 <rect key="frame" x="454" y="285" width="30" height="30"/>
@@ -156,7 +153,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedCar:" destination="fQz-Mp-9OI" eventType="touchDown" id="A4v-57-LMw"/>
                                     <segue destination="Wx2-jH-Vtg" kind="presentation" id="Oyv-QU-YrY"/>
                                 </connections>
                             </button>
@@ -191,9 +187,6 @@
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="selectedFoot:" destination="rLL-28-Zsz" eventType="touchDown" id="MsK-rj-yeU"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAV-5L-s2g">
                                 <rect key="frame" x="454" y="285" width="30" height="30"/>
@@ -201,7 +194,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedCar:" destination="rLL-28-Zsz" eventType="touchDown" id="JAv-aU-p2H"/>
                                     <segue destination="7i0-Ew-dpG" kind="presentation" id="rDz-rA-BJr"/>
                                 </connections>
                             </button>
@@ -236,9 +228,6 @@
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="selectedFoot:" destination="Wx2-jH-Vtg" eventType="touchDown" id="1br-IK-DZb"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ci-Ut-Ywa">
                                 <rect key="frame" x="454" y="285" width="30" height="30"/>
@@ -246,7 +235,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedCar:" destination="Wx2-jH-Vtg" eventType="touchDown" id="IYj-dL-nWQ"/>
                                     <segue destination="rLL-28-Zsz" kind="presentation" id="Dy2-tM-GzR"/>
                                 </connections>
                             </button>
@@ -281,9 +269,6 @@
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="selectedFoot:" destination="7i0-Ew-dpG" eventType="touchDown" id="66y-lO-yTj"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-YO-Vjd">
                                 <rect key="frame" x="454" y="285" width="30" height="30"/>
@@ -291,7 +276,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedCar:" destination="7i0-Ew-dpG" eventType="touchDown" id="uNf-xa-vmb"/>
                                     <segue destination="j1C-aa-jJx" kind="presentation" id="a5Y-hy-oQR"/>
                                 </connections>
                             </button>
