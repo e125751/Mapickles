@@ -57,6 +57,7 @@
                                 </state>
                                 <connections>
                                     <action selector="selectedFoot:" destination="0cp-JY-tlQ" eventType="touchDown" id="D6J-f4-DEv"/>
+                                    <segue destination="fQz-Mp-9OI" kind="presentation" id="nuc-Ao-Lqq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJw-QO-SlI">
@@ -66,6 +67,7 @@
                                 </state>
                                 <connections>
                                     <action selector="selectedCar:" destination="0cp-JY-tlQ" eventType="touchDown" id="fmO-Qx-5eE"/>
+                                    <segue destination="fQz-Mp-9OI" kind="presentation" id="QfS-Yi-SnJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -155,6 +157,7 @@
                                 </state>
                                 <connections>
                                     <action selector="selectedCar:" destination="fQz-Mp-9OI" eventType="touchDown" id="A4v-57-LMw"/>
+                                    <segue destination="Wx2-jH-Vtg" kind="presentation" id="Oyv-QU-YrY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -199,6 +202,7 @@
                                 </state>
                                 <connections>
                                     <action selector="selectedCar:" destination="rLL-28-Zsz" eventType="touchDown" id="JAv-aU-p2H"/>
+                                    <segue destination="7i0-Ew-dpG" kind="presentation" id="rDz-rA-BJr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -243,6 +247,7 @@
                                 </state>
                                 <connections>
                                     <action selector="selectedCar:" destination="Wx2-jH-Vtg" eventType="touchDown" id="IYj-dL-nWQ"/>
+                                    <segue destination="rLL-28-Zsz" kind="presentation" id="Dy2-tM-GzR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -287,6 +292,7 @@
                                 </state>
                                 <connections>
                                     <action selector="selectedCar:" destination="7i0-Ew-dpG" eventType="touchDown" id="uNf-xa-vmb"/>
+                                    <segue destination="j1C-aa-jJx" kind="presentation" id="a5Y-hy-oQR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -304,4 +310,7 @@
             <point key="canvasLocation" x="3515" y="184"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="nuc-Ao-Lqq"/>
+    </inferredMetricsTieBreakers>
 </document>
