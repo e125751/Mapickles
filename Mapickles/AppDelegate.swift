@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Mapickles
+//  unwindToTop
 //
-//  Created by motoshi on 2015/02/09.
+//  Created by motoshi on 2015/02/08.
 //  Copyright (c) 2015年 motoshi. All rights reserved.
 //
 
@@ -13,6 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var answer1: String?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
