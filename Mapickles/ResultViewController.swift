@@ -8,25 +8,45 @@
 
 import UIKit
 
-class ResultViewController: UIViewController {
+class ResultViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
-    @IBOutlet weak var Label: UILabel!
+    
+    
+    // Tableで使用する配列を設定する
+    
+    let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
+    
+    
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        if(appDelegate.answer1 != nil){
-            Label.text = appDelegate.answer1
-        }else{
-            Label.text = "hoge"
-        }
         
+        super.viewDidLoad()
+        
+        myTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
+
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        println("Num: \(indexPath.row)")
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return myItems.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        // Cellの.を取得する.
+        let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath) as UITableViewCell
+        
+        // Cellに値を設定する.
+        cell.textLabel!.text = "\(myItems[indexPath.row])"
+        
+        return cell
     }
     
 }
