@@ -1,14 +1,16 @@
 //
 //  ViewController.swift
-//  Mapickles
+//  unwindToTop
 //
-//  Created by motoshi on 2015/02/09.
+//  Created by motoshi on 2015/02/08.
 //  Copyright (c) 2015年 motoshi. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func unwindToTop(segue: UIStoryboardSegue){}
 
     override func viewDidLoad() {
         super.viewDidLoad()
