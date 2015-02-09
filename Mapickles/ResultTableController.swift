@@ -18,7 +18,6 @@ class ResultTableController: UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
         
         let barHeight: CGFloat = UIApplication.sharedApplication().statusBarFrame.size.height
-        
         let displayWidth: CGFloat = self.view.frame.width
         let displayHeight: CGFloat = self.view.frame.height
         
@@ -27,9 +26,7 @@ class ResultTableController: UIViewController, UITableViewDelegate, UITableViewD
         myTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
         
         myTableView.dataSource = self
-        
         myTableView.delegate = self
-        
         self.view.addSubview(myTableView)
         
     }
