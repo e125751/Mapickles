@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A3CC4C81A8916B4000CF029 /* ResultTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4C71A8916B4000CF029 /* ResultTableController.swift */; };
 		6A579E671A87BFD20065083E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A579E661A87BFD20065083E /* Images.xcassets */; };
 		6A579E6A1A87BFD20065083E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A579E681A87BFD20065083E /* LaunchScreen.xib */; };
 		6A579E761A87BFD20065083E /* MapicklesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A579E751A87BFD20065083E /* MapicklesTests.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A3CC4C71A8916B4000CF029 /* ResultTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableController.swift; sourceTree = "<group>"; };
 		6A579E5A1A87BFD20065083E /* Mapickles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapickles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A579E5E1A87BFD20065083E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A579E661A87BFD20065083E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				6A579E831A87C0760065083E /* ViewController.swift */,
 				6A579E811A87C0290065083E /* Question1.swift */,
 				6A579E851A87C0800065083E /* ResultViewController.swift */,
+				6A3CC4C71A8916B4000CF029 /* ResultTableController.swift */,
 				6A579E871A87C0950065083E /* Main.storyboard */,
 				6A579E661A87BFD20065083E /* Images.xcassets */,
 				6A579E681A87BFD20065083E /* LaunchScreen.xib */,
@@ -302,6 +305,7 @@
 				6A579E801A87BFF90065083E /* AppDelegate.swift in Sources */,
 				6A579E821A87C0290065083E /* Question1.swift in Sources */,
 				6A579E861A87C0800065083E /* ResultViewController.swift in Sources */,
+				6A3CC4C81A8916B4000CF029 /* ResultTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
