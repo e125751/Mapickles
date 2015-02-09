@@ -1,103 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bO7-rZ-4hS">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bO7-rZ-4hS">
+                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0cp-JY-tlQ" kind="presentation" id="m5o-tj-TuL"/>
+                                    <segue destination="0cp-JY-tlQ" kind="modal" id="m5o-tj-TuL"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="bO7-rZ-4hS" secondAttribute="centerY" id="bqe-5L-23s"/>
-                            <constraint firstAttribute="centerX" secondItem="bO7-rZ-4hS" secondAttribute="centerX" id="cBn-4o-EDj"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="107" y="190"/>
+            <point key="canvasLocation" x="57.066666666666663" y="179.86666666666667"/>
         </scene>
         <!--qestion1-->
         <scene sceneID="ETh-D3-G5F">
             <objects>
                 <viewController id="0cp-JY-tlQ" userLabel="qestion1" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Ljs-vV-zMm"/>
-                        <viewControllerLayoutGuide type="bottom" id="Aor-ZR-EHC"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GBU-pA-Qi1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSX-VF-Gbe">
-                                <rect key="frame" x="116" y="285" width="32" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YSX-VF-Gbe">
+                                <rect key="frame" x="116" y="269" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="selectedFoot:" destination="0cp-JY-tlQ" eventType="touchDown" id="D6J-f4-DEv"/>
-                                    <segue destination="fQz-Mp-9OI" kind="presentation" id="nuc-Ao-Lqq"/>
+                                    <segue destination="fQz-Mp-9OI" kind="modal" id="nuc-Ao-Lqq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJw-QO-SlI">
-                                <rect key="frame" x="454" y="285" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mJw-QO-SlI">
+                                <rect key="frame" x="174" y="269" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="car">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="selectedCar:" destination="0cp-JY-tlQ" eventType="touchDown" id="fmO-Qx-5eE"/>
-                                    <segue destination="fQz-Mp-9OI" kind="presentation" id="QfS-Yi-SnJ"/>
+                                    <segue destination="fQz-Mp-9OI" kind="modal" id="QfS-Yi-SnJ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="mJw-QO-SlI" secondAttribute="centerY" id="UQA-EX-khe"/>
-                            <constraint firstItem="YSX-VF-Gbe" firstAttribute="leading" secondItem="GBU-pA-Qi1" secondAttribute="leadingMargin" constant="100" id="bw3-V0-7LQ"/>
-                            <constraint firstAttribute="centerY" secondItem="YSX-VF-Gbe" secondAttribute="centerY" id="m5d-ER-ihU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="mJw-QO-SlI" secondAttribute="trailing" constant="100" id="sBd-13-rTj"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZIQ-lB-K1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="765" y="190"/>
+            <point key="canvasLocation" x="408" y="179.86666666666667"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="gj8-sF-wRG">
             <objects>
                 <viewController id="j1C-aa-jJx" customClass="ResultViewController" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hnH-gZ-TKv"/>
-                        <viewControllerLayoutGuide type="bottom" id="K81-uW-hyT"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4yb-ci-Tad">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mib-He-iwO">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mib-He-iwO">
+                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -105,20 +86,15 @@
                                     <segue destination="6fp-lx-vbB" kind="unwind" unwindAction="unwindToTop:" id="Wmv-Ef-f8o"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAz-PL-eem">
-                                <rect key="frame" x="279" y="120" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FAz-PL-eem">
+                                <rect key="frame" x="139" y="120" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="FAz-PL-eem" firstAttribute="top" secondItem="hnH-gZ-TKv" secondAttribute="bottom" constant="100" id="Dov-yh-3rC"/>
-                            <constraint firstAttribute="centerY" secondItem="mib-He-iwO" secondAttribute="centerY" id="Knq-P1-Kl2"/>
-                            <constraint firstAttribute="centerX" secondItem="FAz-PL-eem" secondAttribute="centerX" id="VP1-gh-LdI"/>
-                            <constraint firstAttribute="centerX" secondItem="mib-He-iwO" secondAttribute="centerX" id="wE8-B8-25m"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="Label" destination="FAz-PL-eem" id="NvI-TV-zf9"/>
@@ -127,173 +103,146 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OjP-45-clj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="6fp-lx-vbB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="4150" y="184"/>
+            <point key="canvasLocation" x="2213.3333333333335" y="174.18666666666667"/>
         </scene>
         <!--qestion2-->
         <scene sceneID="QpA-Sf-Kpu">
             <objects>
                 <viewController id="fQz-Mp-9OI" userLabel="qestion2" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cR7-Lp-5ZF"/>
-                        <viewControllerLayoutGuide type="bottom" id="L6q-us-H07"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="adb-mj-awo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26H-LO-a3g">
-                                <rect key="frame" x="116" y="285" width="32" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="26H-LO-a3g">
+                                <rect key="frame" x="116" y="269" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbw-2I-lUE">
-                                <rect key="frame" x="454" y="285" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xbw-2I-lUE">
+                                <rect key="frame" x="174" y="269" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="car">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Wx2-jH-Vtg" kind="presentation" id="Oyv-QU-YrY"/>
+                                    <segue destination="Wx2-jH-Vtg" kind="modal" id="Oyv-QU-YrY"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97393637895584106" green="0.77582782506942749" blue="0.78058421611785889" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="26H-LO-a3g" firstAttribute="leading" secondItem="adb-mj-awo" secondAttribute="leadingMargin" constant="100" id="DPS-VI-uhU"/>
-                            <constraint firstAttribute="centerY" secondItem="xbw-2I-lUE" secondAttribute="centerY" id="Xd4-Sa-NEv"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xbw-2I-lUE" secondAttribute="trailing" constant="100" id="Zu9-Mt-hsz"/>
-                            <constraint firstAttribute="centerY" secondItem="26H-LO-a3g" secondAttribute="centerY" id="uo2-RR-lpv"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cn0-7u-e3Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1481" y="184"/>
+            <point key="canvasLocation" x="789.86666666666667" y="174.18666666666667"/>
         </scene>
         <!--qestion4-->
         <scene sceneID="THA-T4-Wec">
             <objects>
                 <viewController id="rLL-28-Zsz" userLabel="qestion4" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="iBM-kB-397"/>
-                        <viewControllerLayoutGuide type="bottom" id="MvY-Qt-Emd"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EgA-IB-pAR">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hz0-ft-MoY">
-                                <rect key="frame" x="116" y="285" width="32" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hz0-ft-MoY">
+                                <rect key="frame" x="116" y="269" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAV-5L-s2g">
-                                <rect key="frame" x="454" y="285" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YAV-5L-s2g">
+                                <rect key="frame" x="174" y="269" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="car">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7i0-Ew-dpG" kind="presentation" id="rDz-rA-BJr"/>
+                                    <segue destination="7i0-Ew-dpG" kind="modal" id="rDz-rA-BJr"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.73331296443939209" green="0.94897997379302979" blue="0.96679168939590454" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="hz0-ft-MoY" secondAttribute="centerY" id="6FE-83-LkY"/>
-                            <constraint firstItem="hz0-ft-MoY" firstAttribute="leading" secondItem="EgA-IB-pAR" secondAttribute="leadingMargin" constant="100" id="HC2-Tz-dxT"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="YAV-5L-s2g" secondAttribute="trailing" constant="100" id="bPd-Ls-ah2"/>
-                            <constraint firstAttribute="centerY" secondItem="YAV-5L-s2g" secondAttribute="centerY" id="uLC-fc-otK"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ux-UY-Gbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2881" y="184"/>
+            <point key="canvasLocation" x="1536.5333333333333" y="174.18666666666667"/>
         </scene>
         <!--qestion3-->
         <scene sceneID="TRl-a6-CH8">
             <objects>
                 <viewController id="Wx2-jH-Vtg" userLabel="qestion3" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Nrz-dU-0gt"/>
-                        <viewControllerLayoutGuide type="bottom" id="Cog-vB-vcG"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WoC-cz-k9V">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUL-W9-Gw0">
-                                <rect key="frame" x="116" y="285" width="32" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KUL-W9-Gw0">
+                                <rect key="frame" x="116" y="269" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ci-Ut-Ywa">
-                                <rect key="frame" x="454" y="285" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Ci-Ut-Ywa">
+                                <rect key="frame" x="174" y="269" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="car">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="rLL-28-Zsz" kind="presentation" id="Dy2-tM-GzR"/>
+                                    <segue destination="rLL-28-Zsz" kind="modal" id="Dy2-tM-GzR"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97837704420089722" green="0.96386581659317017" blue="0.78088700771331787" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="KUL-W9-Gw0" secondAttribute="centerY" id="FL0-69-qkX"/>
-                            <constraint firstItem="KUL-W9-Gw0" firstAttribute="leading" secondItem="WoC-cz-k9V" secondAttribute="leadingMargin" constant="100" id="KtE-ik-IGn"/>
-                            <constraint firstAttribute="centerY" secondItem="6Ci-Ut-Ywa" secondAttribute="centerY" id="PwL-3N-LEY"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="6Ci-Ut-Ywa" secondAttribute="trailing" constant="100" id="PzD-op-ICX"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4x-ug-J2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2195" y="184"/>
+            <point key="canvasLocation" x="1170.6666666666667" y="174.18666666666667"/>
         </scene>
         <!--qestion5-->
         <scene sceneID="nwd-Si-Pfp">
             <objects>
                 <viewController id="7i0-Ew-dpG" userLabel="qestion5" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YYu-vG-hA8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ynw-E4-ch7"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ij6-Fs-Ebb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="715-OY-WUZ">
-                                <rect key="frame" x="116" y="285" width="32" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="715-OY-WUZ">
+                                <rect key="frame" x="116" y="269" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-YO-Vjd">
-                                <rect key="frame" x="454" y="285" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ReG-YO-Vjd">
+                                <rect key="frame" x="174" y="269" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="car">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="j1C-aa-jJx" kind="presentation" id="a5Y-hy-oQR"/>
+                                    <segue destination="j1C-aa-jJx" kind="modal" id="a5Y-hy-oQR"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.81067293882369995" green="0.71607613563537598" blue="0.96660947799682617" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="ReG-YO-Vjd" secondAttribute="centerY" id="PZo-4s-oy4"/>
-                            <constraint firstItem="715-OY-WUZ" firstAttribute="leading" secondItem="ij6-Fs-Ebb" secondAttribute="leadingMargin" constant="100" id="gU7-DM-BR4"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ReG-YO-Vjd" secondAttribute="trailing" constant="100" id="hCt-7P-lla"/>
-                            <constraint firstAttribute="centerY" secondItem="715-OY-WUZ" secondAttribute="centerY" id="o7A-p2-zVO"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j4Z-aQ-LmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3515" y="184"/>
+            <point key="canvasLocation" x="1874.6666666666667" y="174.18666666666667"/>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="nuc-Ao-Lqq"/>
     </inferredMetricsTieBreakers>
