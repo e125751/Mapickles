@@ -40,6 +40,9 @@ class ResultTableController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("Num: \(indexPath.row)")
         println("Value: \(myItems[indexPath.row])")
+        
+        let showDetailController = ShowDetailController()
+        self.navigationController?.pushViewController(showDetailController, animated: true)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
