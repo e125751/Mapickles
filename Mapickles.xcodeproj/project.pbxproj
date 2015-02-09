@@ -15,6 +15,7 @@
 		6A579E841A87C0760065083E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A579E831A87C0760065083E /* ViewController.swift */; };
 		6A579E861A87C0800065083E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A579E851A87C0800065083E /* ResultViewController.swift */; };
 		6A579E881A87C0950065083E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A579E871A87C0950065083E /* Main.storyboard */; };
+		6A579E8C1A88C5220065083E /* ResultTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A579E8B1A88C5220065083E /* ResultTableController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		6A579E831A87C0760065083E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A579E851A87C0800065083E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		6A579E871A87C0950065083E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6A579E8B1A88C5220065083E /* ResultTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultTableController.swift; path = ../ResultTableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				6A579E7F1A87BFF90065083E /* AppDelegate.swift */,
 				6A579E831A87C0760065083E /* ViewController.swift */,
 				6A579E811A87C0290065083E /* Question1.swift */,
+				6A579E8B1A88C5220065083E /* ResultTableController.swift */,
 				6A579E851A87C0800065083E /* ResultViewController.swift */,
 				6A579E871A87C0950065083E /* Main.storyboard */,
 				6A579E661A87BFD20065083E /* Images.xcassets */,
@@ -222,6 +225,7 @@
 				6A579E801A87BFF90065083E /* AppDelegate.swift in Sources */,
 				6A579E821A87C0290065083E /* Question1.swift in Sources */,
 				6A579E861A87C0800065083E /* ResultViewController.swift in Sources */,
+				6A579E8C1A88C5220065083E /* ResultTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
