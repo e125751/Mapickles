@@ -11,8 +11,10 @@ import UIKit
 
 class ResultTableController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    // Tableで使用する配列を設定する
-    let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
+    var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+    
+    //// Tableで使用する配列を設定する
+    //let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,20 +41,20 @@ class ResultTableController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("Num: \(indexPath.row)")
-        println("Value: \(myItems[indexPath.row])")
+        println("Value: \(appDelegate.answer[indexPath.row])")
         
         let showDetailController = ShowDetailController()
         self.navigationController?.pushViewController(showDetailController, animated: true)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return myItems.count
+        return appDelegate.answer.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath) as UITableViewCell
         
-        cell.textLabel!.text = "\(myItems[indexPath.row])"
+        cell.textLabel!.text = "\(appDelegate.answer[indexPath.row])"
         
         return cell
     }
