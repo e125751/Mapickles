@@ -12,7 +12,9 @@ class Question1: UIViewController {
     
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
     
-    @IBOutlet weak var Choice: UIButton!
+    @IBOutlet weak var rightChoice: UIButton!
+    @IBOutlet weak var centerChoice: UIButton!
+    @IBOutlet weak var leftChoice: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +27,14 @@ class Question1: UIViewController {
         
     }
     
-    @IBAction func selectedChoice(sender: AnyObject) {
-        appDelegate.answer.append(Choice.currentTitle!)
+    @IBAction func selectedRight(sender: AnyObject) {
+        appDelegate.answer.append(rightChoice.currentTitle!)
     }
    
+    @IBAction func selectedCenter(sender: AnyObject) {
+        appDelegate.answer.append(centerChoice.currentTitle!)
+    }
+    @IBAction func selectedLeft(sender: AnyObject) {
+        appDelegate.answer.append(leftChoice.currentTitle!)
+    }
 }
