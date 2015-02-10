@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		6A3CC4C81A8916B4000CF029 /* ResultTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4C71A8916B4000CF029 /* ResultTableController.swift */; };
 		6A3CC4CA1A893CFF000CF029 /* ShowDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4C91A893CFF000CF029 /* ShowDetailController.swift */; };
-		6A3CC4CC1A89A439000CF029 /* Question2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4CB1A89A439000CF029 /* Question2.swift */; };
-		6A3CC4CE1A89A44A000CF029 /* Question3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4CD1A89A44A000CF029 /* Question3.swift */; };
-		6A3CC4D01A89A47C000CF029 /* Question4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4CF1A89A47B000CF029 /* Question4.swift */; };
-		6A3CC4D21A89A493000CF029 /* Question5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4D11A89A493000CF029 /* Question5.swift */; };
 		6A579E671A87BFD20065083E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A579E661A87BFD20065083E /* Images.xcassets */; };
 		6A579E6A1A87BFD20065083E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A579E681A87BFD20065083E /* LaunchScreen.xib */; };
 		6A579E761A87BFD20065083E /* MapicklesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A579E751A87BFD20065083E /* MapicklesTests.swift */; };
@@ -56,10 +52,6 @@
 /* Begin PBXFileReference section */
 		6A3CC4C71A8916B4000CF029 /* ResultTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableController.swift; sourceTree = "<group>"; };
 		6A3CC4C91A893CFF000CF029 /* ShowDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailController.swift; sourceTree = "<group>"; };
-		6A3CC4CB1A89A439000CF029 /* Question2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
-		6A3CC4CD1A89A44A000CF029 /* Question3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question3.swift; sourceTree = "<group>"; };
-		6A3CC4CF1A89A47B000CF029 /* Question4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question4.swift; sourceTree = "<group>"; };
-		6A3CC4D11A89A493000CF029 /* Question5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question5.swift; sourceTree = "<group>"; };
 		6A579E5A1A87BFD20065083E /* Mapickles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapickles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A579E5E1A87BFD20065083E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A579E661A87BFD20065083E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -125,10 +117,6 @@
 				6A579E7F1A87BFF90065083E /* AppDelegate.swift */,
 				6A579E831A87C0760065083E /* ViewController.swift */,
 				6A579E811A87C0290065083E /* Question1.swift */,
-				6A3CC4CB1A89A439000CF029 /* Question2.swift */,
-				6A3CC4CD1A89A44A000CF029 /* Question3.swift */,
-				6A3CC4CF1A89A47B000CF029 /* Question4.swift */,
-				6A3CC4D11A89A493000CF029 /* Question5.swift */,
 				6A579E851A87C0800065083E /* ResultViewController.swift */,
 				6A3CC4C71A8916B4000CF029 /* ResultTableController.swift */,
 				6A3CC4C91A893CFF000CF029 /* ShowDetailController.swift */,
@@ -318,14 +306,10 @@
 			files = (
 				6A579E841A87C0760065083E /* ViewController.swift in Sources */,
 				6A579E801A87BFF90065083E /* AppDelegate.swift in Sources */,
-				6A3CC4CC1A89A439000CF029 /* Question2.swift in Sources */,
-				6A3CC4D21A89A493000CF029 /* Question5.swift in Sources */,
 				6A579E821A87C0290065083E /* Question1.swift in Sources */,
 				6A3CC4CA1A893CFF000CF029 /* ShowDetailController.swift in Sources */,
-				6A3CC4CE1A89A44A000CF029 /* Question3.swift in Sources */,
 				6A579E861A87C0800065083E /* ResultViewController.swift in Sources */,
 				6A3CC4C81A8916B4000CF029 /* ResultTableController.swift in Sources */,
-				6A3CC4D01A89A47C000CF029 /* Question4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
