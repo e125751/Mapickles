@@ -168,7 +168,7 @@
         <!--qestion2-->
         <scene sceneID="QpA-Sf-Kpu">
             <objects>
-                <viewController id="fQz-Mp-9OI" userLabel="qestion2" sceneMemberID="viewController">
+                <viewController id="fQz-Mp-9OI" userLabel="qestion2" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GFT-1G-EXM"/>
                         <viewControllerLayoutGuide type="bottom" id="HvC-UF-9OP"/>
@@ -204,6 +204,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="xbw-2I-lUE" secondAttribute="trailing" constant="50" id="k4q-by-3QQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftChoice" destination="xbw-2I-lUE" id="hy1-vG-8no"/>
+                        <outlet property="rightChoice" destination="26H-LO-a3g" id="EX5-wR-F5N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cn0-7u-e3Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
