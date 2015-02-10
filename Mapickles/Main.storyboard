@@ -183,6 +183,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="selectedRight:" destination="fQz-Mp-9OI" eventType="touchUpInside" id="VLA-Hh-8Ue"/>
                                     <segue destination="Wx2-jH-Vtg" kind="modal" id="hlI-2p-uVv"/>
                                 </connections>
                             </button>
@@ -192,6 +193,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="selectedLeft:" destination="fQz-Mp-9OI" eventType="touchUpInside" id="8zu-mW-GRQ"/>
                                     <segue destination="Wx2-jH-Vtg" kind="modal" id="Oyv-QU-YrY"/>
                                 </connections>
                             </button>
@@ -205,8 +207,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="leftChoice" destination="xbw-2I-lUE" id="s7B-ew-vPP"/>
-                        <outlet property="rightChoice" destination="26H-LO-a3g" id="P1l-5Y-NhS"/>
+                        <outlet property="leftChoice" destination="xbw-2I-lUE" id="V9Q-gy-TNV"/>
+                        <outlet property="rightChoice" destination="26H-LO-a3g" id="H8Q-kO-cIv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cn0-7u-e3Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
