@@ -17,6 +17,19 @@
 		6A579E841A87C0760065083E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A579E831A87C0760065083E /* ViewController.swift */; };
 		6A579E861A87C0800065083E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A579E851A87C0800065083E /* ResultViewController.swift */; };
 		6A579E881A87C0950065083E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A579E871A87C0950065083E /* Main.storyboard */; };
+		7115A5651A892D22001A0DD3 /* cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115A5621A892D22001A0DD3 /* cycle.png */; };
+		7115A5661A892D22001A0DD3 /* dart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115A5631A892D22001A0DD3 /* dart.png */; };
+		7115A5671A892D22001A0DD3 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7115A5641A892D22001A0DD3 /* iTunesArtwork@2x.png */; };
+		7182DC911A898EA800111121 /* anime1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC851A898EA800111121 /* anime1.png */; };
+		7182DC931A898EA800111121 /* anime2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC871A898EA800111121 /* anime2.png */; };
+		7182DC941A898EA800111121 /* anime3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC881A898EA800111121 /* anime3.png */; };
+		7182DC961A898EA800111121 /* anime4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC8A1A898EA800111121 /* anime4.png */; };
+		7182DC971A898EA800111121 /* anime5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC8B1A898EA800111121 /* anime5.png */; };
+		7182DC981A898EA800111121 /* anime6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC8C1A898EA800111121 /* anime6.png */; };
+		7182DC991A898EA800111121 /* anime7.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC8D1A898EA800111121 /* anime7.png */; };
+		7182DC9A1A898EA800111121 /* anime8.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC8E1A898EA800111121 /* anime8.png */; };
+		7182DC9B1A898EA800111121 /* anime9.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC8F1A898EA800111121 /* anime9.png */; };
+		7182DC9C1A898EA800111121 /* anime10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7182DC901A898EA800111121 /* anime10.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +77,19 @@
 		6A579E831A87C0760065083E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A579E851A87C0800065083E /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		6A579E871A87C0950065083E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7115A5621A892D22001A0DD3 /* cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cycle.png; sourceTree = "<group>"; };
+		7115A5631A892D22001A0DD3 /* dart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dart.png; sourceTree = "<group>"; };
+		7115A5641A892D22001A0DD3 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		7182DC851A898EA800111121 /* anime1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime1.png; sourceTree = "<group>"; };
+		7182DC871A898EA800111121 /* anime2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime2.png; sourceTree = "<group>"; };
+		7182DC881A898EA800111121 /* anime3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime3.png; sourceTree = "<group>"; };
+		7182DC8A1A898EA800111121 /* anime4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime4.png; sourceTree = "<group>"; };
+		7182DC8B1A898EA800111121 /* anime5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime5.png; sourceTree = "<group>"; };
+		7182DC8C1A898EA800111121 /* anime6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime6.png; sourceTree = "<group>"; };
+		7182DC8D1A898EA800111121 /* anime7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime7.png; sourceTree = "<group>"; };
+		7182DC8E1A898EA800111121 /* anime8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime8.png; sourceTree = "<group>"; };
+		7182DC8F1A898EA800111121 /* anime9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime9.png; sourceTree = "<group>"; };
+		7182DC901A898EA800111121 /* anime10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anime10.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +140,7 @@
 		6A579E5C1A87BFD20065083E /* Mapickles */ = {
 			isa = PBXGroup;
 			children = (
+				7115A5611A892D22001A0DD3 /* Mapicklesimages */,
 				6A579E7F1A87BFF90065083E /* AppDelegate.swift */,
 				6A579E831A87C0760065083E /* ViewController.swift */,
 				6A579E811A87C0290065083E /* Question1.swift */,
@@ -151,6 +178,26 @@
 				6A579E741A87BFD20065083E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7115A5611A892D22001A0DD3 /* Mapicklesimages */ = {
+			isa = PBXGroup;
+			children = (
+				7182DC851A898EA800111121 /* anime1.png */,
+				7182DC871A898EA800111121 /* anime2.png */,
+				7182DC881A898EA800111121 /* anime3.png */,
+				7182DC8A1A898EA800111121 /* anime4.png */,
+				7182DC8B1A898EA800111121 /* anime5.png */,
+				7182DC8C1A898EA800111121 /* anime6.png */,
+				7182DC8D1A898EA800111121 /* anime7.png */,
+				7182DC8E1A898EA800111121 /* anime8.png */,
+				7182DC8F1A898EA800111121 /* anime9.png */,
+				7182DC901A898EA800111121 /* anime10.png */,
+				7115A5621A892D22001A0DD3 /* cycle.png */,
+				7115A5631A892D22001A0DD3 /* dart.png */,
+				7115A5641A892D22001A0DD3 /* iTunesArtwork@2x.png */,
+			);
+			path = Mapicklesimages;
 			sourceTree = "<group>";
 		};
 		71162E841A88931F00F696A2 /* Frameworks */ = {
@@ -277,9 +324,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7182DC9B1A898EA800111121 /* anime9.png in Resources */,
+				7115A5651A892D22001A0DD3 /* cycle.png in Resources */,
+				7115A5671A892D22001A0DD3 /* iTunesArtwork@2x.png in Resources */,
+				7182DC991A898EA800111121 /* anime7.png in Resources */,
+				7182DC941A898EA800111121 /* anime3.png in Resources */,
+				7182DC9C1A898EA800111121 /* anime10.png in Resources */,
+				7115A5661A892D22001A0DD3 /* dart.png in Resources */,
 				6A579E881A87C0950065083E /* Main.storyboard in Resources */,
+				7182DC971A898EA800111121 /* anime5.png in Resources */,
+				7182DC931A898EA800111121 /* anime2.png in Resources */,
+				7182DC911A898EA800111121 /* anime1.png in Resources */,
 				6A579E6A1A87BFD20065083E /* LaunchScreen.xib in Resources */,
 				6A579E671A87BFD20065083E /* Images.xcassets in Resources */,
+				7182DC961A898EA800111121 /* anime4.png in Resources */,
+				7182DC981A898EA800111121 /* anime6.png in Resources */,
+				7182DC9A1A898EA800111121 /* anime8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
