@@ -26,11 +26,11 @@ class Question4: UIViewController {
         
     }
     
-    @IBAction func selectedFoot(sender: AnyObject) {
+    @IBAction func selectedRight(sender: AnyObject) {
         appDelegate.answer.append(rightChoice.currentTitle!)
     }
     
-    @IBAction func selectedCar(sender: AnyObject) {
+    @IBAction func selectedLeft(sender: AnyObject) {
         appDelegate.answer.append(leftChoice.currentTitle!)
     }
 }
