@@ -105,24 +105,13 @@
                                     <segue destination="LDF-i0-bMK" kind="modal" id="gtS-vS-hLh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAz-PL-eem">
-                                <rect key="frame" x="139" y="120" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FAz-PL-eem" firstAttribute="top" secondItem="4yb-ci-Tad" secondAttribute="topMargin" constant="120" id="fmw-wj-9vJ"/>
                             <constraint firstAttribute="centerY" secondItem="mib-He-iwO" secondAttribute="centerY" id="o1Z-3y-bUM"/>
                             <constraint firstAttribute="centerX" secondItem="mib-He-iwO" secondAttribute="centerX" id="p1g-iO-bOu"/>
-                            <constraint firstAttribute="centerX" secondItem="FAz-PL-eem" secondAttribute="centerX" id="rPe-mf-Xzk"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="Label" destination="FAz-PL-eem" id="NvI-TV-zf9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OjP-45-clj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

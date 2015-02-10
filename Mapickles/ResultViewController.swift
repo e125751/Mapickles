@@ -10,19 +10,9 @@ import UIKit
 
 class ResultViewController: UIViewController {
     
-    var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
-    @IBOutlet weak var Label: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        if(appDelegate.answer.isEmpty){
-            Label.text = "hoge"
-
-        }else{
-            Label.text = appDelegate.answer[1]
-        }
-        
     }
     
     override func didReceiveMemoryWarning() {
