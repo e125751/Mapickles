@@ -168,7 +168,7 @@
         <!--qestion2-->
         <scene sceneID="QpA-Sf-Kpu">
             <objects>
-                <viewController id="fQz-Mp-9OI" userLabel="qestion2" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fQz-Mp-9OI" userLabel="qestion2" customClass="Question2" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GFT-1G-EXM"/>
                         <viewControllerLayoutGuide type="bottom" id="HvC-UF-9OP"/>
@@ -205,8 +205,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="leftChoice" destination="xbw-2I-lUE" id="hy1-vG-8no"/>
-                        <outlet property="rightChoice" destination="26H-LO-a3g" id="EX5-wR-F5N"/>
+                        <outlet property="leftChoice" destination="xbw-2I-lUE" id="s7B-ew-vPP"/>
+                        <outlet property="rightChoice" destination="26H-LO-a3g" id="P1l-5Y-NhS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cn0-7u-e3Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -216,7 +216,7 @@
         <!--qestion4-->
         <scene sceneID="THA-T4-Wec">
             <objects>
-                <viewController id="rLL-28-Zsz" userLabel="qestion4" sceneMemberID="viewController">
+                <viewController id="rLL-28-Zsz" userLabel="qestion4" customClass="Question4" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hH3-Du-Mjl"/>
                         <viewControllerLayoutGuide type="bottom" id="edt-uC-ff8"/>
@@ -230,6 +230,9 @@
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="7i0-Ew-dpG" kind="modal" id="k9c-rL-2zj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAV-5L-s2g">
                                 <rect key="frame" x="224" y="269" width="30" height="30"/>
@@ -249,6 +252,10 @@
                             <constraint firstAttribute="centerY" secondItem="YAV-5L-s2g" secondAttribute="centerY" id="Z8q-We-fVx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftChoice" destination="YAV-5L-s2g" id="WRv-od-vRC"/>
+                        <outlet property="rightChoice" destination="hz0-ft-MoY" id="LRU-4w-GJc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ux-UY-Gbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -257,7 +264,7 @@
         <!--qestion3-->
         <scene sceneID="TRl-a6-CH8">
             <objects>
-                <viewController id="Wx2-jH-Vtg" userLabel="qestion3" sceneMemberID="viewController">
+                <viewController id="Wx2-jH-Vtg" userLabel="qestion3" customClass="Question3" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HLu-pK-Bid"/>
                         <viewControllerLayoutGuide type="bottom" id="ijS-zJ-OZl"/>
@@ -271,6 +278,9 @@
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="rLL-28-Zsz" kind="modal" id="Ewx-fF-JBn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ci-Ut-Ywa">
                                 <rect key="frame" x="224" y="269" width="30" height="30"/>
@@ -290,6 +300,10 @@
                             <constraint firstItem="KUL-W9-Gw0" firstAttribute="leading" secondItem="WoC-cz-k9V" secondAttribute="leadingMargin" constant="50" id="u4C-vH-LeB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftChoice" destination="6Ci-Ut-Ywa" id="Fpq-9h-5rw"/>
+                        <outlet property="rightChoice" destination="KUL-W9-Gw0" id="jKY-G2-gbC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4x-ug-J2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -298,7 +312,7 @@
         <!--qestion5-->
         <scene sceneID="nwd-Si-Pfp">
             <objects>
-                <viewController id="7i0-Ew-dpG" userLabel="qestion5" sceneMemberID="viewController">
+                <viewController id="7i0-Ew-dpG" userLabel="qestion5" customClass="Question5" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y4U-J1-xy0"/>
                         <viewControllerLayoutGuide type="bottom" id="f6V-ng-xvv"/>
@@ -312,6 +326,9 @@
                                 <state key="normal" title="Foot">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="j1C-aa-jJx" kind="modal" id="chY-JE-WTu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-YO-Vjd">
                                 <rect key="frame" x="224" y="269" width="30" height="30"/>
@@ -331,6 +348,10 @@
                             <constraint firstAttribute="centerY" secondItem="715-OY-WUZ" secondAttribute="centerY" id="m1T-mh-fTC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftChoice" destination="ReG-YO-Vjd" id="Pos-ei-vHT"/>
+                        <outlet property="rightChoice" destination="715-OY-WUZ" id="zwH-RU-gDU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j4Z-aQ-LmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -361,6 +382,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="chY-JE-WTu"/>
+        <segue reference="rDz-rA-BJr"/>
+        <segue reference="Dy2-tM-GzR"/>
         <segue reference="Oyv-QU-YrY"/>
         <segue reference="nuc-Ao-Lqq"/>
     </inferredMetricsTieBreakers>
