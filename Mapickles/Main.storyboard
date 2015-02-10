@@ -175,7 +175,7 @@
         <!--qestion2-->
         <scene sceneID="QpA-Sf-Kpu">
             <objects>
-                <viewController id="fQz-Mp-9OI" userLabel="qestion2" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fQz-Mp-9OI" userLabel="qestion2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GFT-1G-EXM"/>
                         <viewControllerLayoutGuide type="bottom" id="HvC-UF-9OP"/>
@@ -185,14 +185,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26H-LO-a3g">
-                                <rect key="frame" x="66" y="269" width="32" height="30"/>
-                                <state key="normal" title="Foot">
+                                <rect key="frame" x="66" y="269" width="30" height="30"/>
+                                <state key="normal" title="Fish">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbw-2I-lUE">
-                                <rect key="frame" x="224" y="269" width="30" height="30"/>
-                                <state key="normal" title="car">
+                                <rect key="frame" x="219" y="269" width="35" height="30"/>
+                                <state key="normal" title="Meat">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -216,7 +216,7 @@
         <!--qestion4-->
         <scene sceneID="THA-T4-Wec">
             <objects>
-                <viewController id="rLL-28-Zsz" userLabel="qestion4" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rLL-28-Zsz" userLabel="qestion4" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hH3-Du-Mjl"/>
                         <viewControllerLayoutGuide type="bottom" id="edt-uC-ff8"/>
@@ -257,7 +257,7 @@
         <!--qestion3-->
         <scene sceneID="TRl-a6-CH8">
             <objects>
-                <viewController id="Wx2-jH-Vtg" userLabel="qestion3" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Wx2-jH-Vtg" userLabel="qestion3" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HLu-pK-Bid"/>
                         <viewControllerLayoutGuide type="bottom" id="ijS-zJ-OZl"/>
@@ -298,7 +298,7 @@
         <!--qestion5-->
         <scene sceneID="nwd-Si-Pfp">
             <objects>
-                <viewController id="7i0-Ew-dpG" userLabel="qestion5" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7i0-Ew-dpG" userLabel="qestion5" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y4U-J1-xy0"/>
                         <viewControllerLayoutGuide type="bottom" id="f6V-ng-xvv"/>
