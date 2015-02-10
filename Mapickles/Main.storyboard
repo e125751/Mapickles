@@ -63,7 +63,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedRight:" destination="0cp-JY-tlQ" eventType="touchDown" id="jXe-Vx-hGx"/>
+                                    <action selector="selectedChoice:" destination="0cp-JY-tlQ" eventType="touchDown" id="XCM-FX-REj"/>
                                     <segue destination="fQz-Mp-9OI" kind="modal" id="nuc-Ao-Lqq"/>
                                 </connections>
                             </button>
@@ -73,7 +73,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedLeft:" destination="0cp-JY-tlQ" eventType="touchDown" id="7CG-Dt-FAN"/>
+                                    <action selector="selectedChoice:" destination="0cp-JY-tlQ" eventType="touchDown" id="vrd-ZT-VkY"/>
                                     <segue destination="fQz-Mp-9OI" kind="modal" id="QfS-Yi-SnJ"/>
                                 </connections>
                             </button>
@@ -87,8 +87,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="leftChoice" destination="mJw-QO-SlI" id="rOn-IV-TQp"/>
-                        <outlet property="rightChoice" destination="YSX-VF-Gbe" id="zNt-RN-TKl"/>
+                        <outlet property="Choice" destination="mJw-QO-SlI" id="sCD-dG-blK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZIQ-lB-K1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -108,8 +107,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mib-He-iwO">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="138" y="269" width="44" height="30"/>
+                                <state key="normal" title="Result">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -126,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OjP-45-clj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2213.3333333333335" y="174.18666666666667"/>
+            <point key="canvasLocation" x="1183" y="174"/>
         </scene>
         <!--ResulTable-->
         <scene sceneID="OXD-iu-xtS">
@@ -152,7 +151,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lq5-5j-zNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="gJu-uT-eb6" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3033" y="174"/>
+            <point key="canvasLocation" x="2003" y="174"/>
         </scene>
         <!--ShowDetail-->
         <scene sceneID="QMC-br-37c">
@@ -185,192 +184,53 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26H-LO-a3g">
-                                <rect key="frame" x="66" y="269" width="30" height="30"/>
-                                <state key="normal" title="Fish">
+                                <rect key="frame" x="66" y="269" width="52" height="30"/>
+                                <state key="normal" title="Alcohol">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedRight:" destination="fQz-Mp-9OI" eventType="touchDown" id="Fcq-SK-Seb"/>
-                                    <segue destination="Wx2-jH-Vtg" kind="modal" id="hlI-2p-uVv"/>
+                                    <action selector="selectedChoice:" destination="fQz-Mp-9OI" eventType="touchDown" id="B8h-ZO-aHi"/>
+                                    <segue destination="j1C-aa-jJx" kind="modal" id="0kZ-t9-38q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbw-2I-lUE">
-                                <rect key="frame" x="219" y="269" width="35" height="30"/>
-                                <state key="normal" title="Meat">
+                                <rect key="frame" x="222" y="269" width="32" height="30"/>
+                                <state key="normal" title="Cafe">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedLeft:" destination="fQz-Mp-9OI" eventType="touchDown" id="3xX-GE-sdR"/>
-                                    <segue destination="Wx2-jH-Vtg" kind="modal" id="Oyv-QU-YrY"/>
+                                    <action selector="selectedChoice:" destination="fQz-Mp-9OI" eventType="touchDown" id="z7n-IV-dG5"/>
+                                    <segue destination="j1C-aa-jJx" kind="modal" id="OZP-Vm-KfM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIT-QJ-lco">
+                                <rect key="frame" x="143" y="269" width="34" height="30"/>
+                                <state key="normal" title="Meal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectedChoice:" destination="fQz-Mp-9OI" eventType="touchUpInside" id="RSH-hG-Ac2"/>
+                                    <segue destination="j1C-aa-jJx" kind="modal" id="WaH-Me-RXA"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97393637895584106" green="0.77582782506942749" blue="0.78058421611785889" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="nIT-QJ-lco" secondAttribute="centerX" id="APN-79-TTv"/>
                             <constraint firstAttribute="centerY" secondItem="26H-LO-a3g" secondAttribute="centerY" id="S20-D9-ctT"/>
+                            <constraint firstAttribute="centerY" secondItem="nIT-QJ-lco" secondAttribute="centerY" id="Yzc-sH-9XJ"/>
                             <constraint firstAttribute="centerY" secondItem="xbw-2I-lUE" secondAttribute="centerY" id="bjC-4q-MAA"/>
                             <constraint firstItem="26H-LO-a3g" firstAttribute="leading" secondItem="adb-mj-awo" secondAttribute="leadingMargin" constant="50" id="f9f-pA-TcI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xbw-2I-lUE" secondAttribute="trailing" constant="50" id="k4q-by-3QQ"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="leftChoice" destination="xbw-2I-lUE" id="Lmh-ND-rmb"/>
-                        <outlet property="rightChoice" destination="26H-LO-a3g" id="XJV-2X-Zbe"/>
+                        <outlet property="Choice" destination="xbw-2I-lUE" id="48f-a6-byA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cn0-7u-e3Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="789.86666666666667" y="174.18666666666667"/>
-        </scene>
-        <!--qestion4-->
-        <scene sceneID="THA-T4-Wec">
-            <objects>
-                <viewController id="rLL-28-Zsz" userLabel="qestion4" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hH3-Du-Mjl"/>
-                        <viewControllerLayoutGuide type="bottom" id="edt-uC-ff8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="EgA-IB-pAR">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hz0-ft-MoY">
-                                <rect key="frame" x="66" y="269" width="32" height="30"/>
-                                <state key="normal" title="Foot">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="selectedRight:" destination="rLL-28-Zsz" eventType="touchDown" id="2mE-gV-pcc"/>
-                                    <segue destination="7i0-Ew-dpG" kind="modal" id="k9c-rL-2zj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YAV-5L-s2g">
-                                <rect key="frame" x="224" y="269" width="30" height="30"/>
-                                <state key="normal" title="car">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="selectedLeft:" destination="rLL-28-Zsz" eventType="touchDown" id="wMM-Pw-KmH"/>
-                                    <segue destination="7i0-Ew-dpG" kind="modal" id="rDz-rA-BJr"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.73331296443939209" green="0.94897997379302979" blue="0.96679168939590454" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="hz0-ft-MoY" firstAttribute="leading" secondItem="EgA-IB-pAR" secondAttribute="leadingMargin" constant="50" id="6Et-ab-upH"/>
-                            <constraint firstAttribute="centerY" secondItem="hz0-ft-MoY" secondAttribute="centerY" id="G7H-X8-C3E"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="YAV-5L-s2g" secondAttribute="trailing" constant="50" id="WUK-DD-g9R"/>
-                            <constraint firstAttribute="centerY" secondItem="YAV-5L-s2g" secondAttribute="centerY" id="Z8q-We-fVx"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="leftChoice" destination="YAV-5L-s2g" id="KHx-jH-RAO"/>
-                        <outlet property="rightChoice" destination="hz0-ft-MoY" id="PJm-dO-Hrv"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7ux-UY-Gbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1536.5333333333333" y="174.18666666666667"/>
-        </scene>
-        <!--qestion3-->
-        <scene sceneID="TRl-a6-CH8">
-            <objects>
-                <viewController id="Wx2-jH-Vtg" userLabel="qestion3" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="HLu-pK-Bid"/>
-                        <viewControllerLayoutGuide type="bottom" id="ijS-zJ-OZl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="WoC-cz-k9V">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUL-W9-Gw0">
-                                <rect key="frame" x="66" y="269" width="32" height="30"/>
-                                <state key="normal" title="Foot">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="selectedRight:" destination="Wx2-jH-Vtg" eventType="touchDown" id="UvE-VR-PZa"/>
-                                    <segue destination="rLL-28-Zsz" kind="modal" id="Ewx-fF-JBn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ci-Ut-Ywa">
-                                <rect key="frame" x="224" y="269" width="30" height="30"/>
-                                <state key="normal" title="car">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="selectedLeft:" destination="Wx2-jH-Vtg" eventType="touchDown" id="8M4-dG-Dom"/>
-                                    <segue destination="rLL-28-Zsz" kind="modal" id="Dy2-tM-GzR"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.97837704420089722" green="0.96386581659317017" blue="0.78088700771331787" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="6Ci-Ut-Ywa" secondAttribute="trailing" constant="50" id="bw5-ow-A2J"/>
-                            <constraint firstAttribute="centerY" secondItem="KUL-W9-Gw0" secondAttribute="centerY" id="c8H-If-8PD"/>
-                            <constraint firstAttribute="centerY" secondItem="6Ci-Ut-Ywa" secondAttribute="centerY" id="ff8-17-sWM"/>
-                            <constraint firstItem="KUL-W9-Gw0" firstAttribute="leading" secondItem="WoC-cz-k9V" secondAttribute="leadingMargin" constant="50" id="u4C-vH-LeB"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="leftChoice" destination="6Ci-Ut-Ywa" id="0XZ-rJ-8Zs"/>
-                        <outlet property="rightChoice" destination="KUL-W9-Gw0" id="KUB-8Q-WS4"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a4x-ug-J2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1170.6666666666667" y="174.18666666666667"/>
-        </scene>
-        <!--qestion5-->
-        <scene sceneID="nwd-Si-Pfp">
-            <objects>
-                <viewController id="7i0-Ew-dpG" userLabel="qestion5" customClass="Question1" customModule="Mapickles" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Y4U-J1-xy0"/>
-                        <viewControllerLayoutGuide type="bottom" id="f6V-ng-xvv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ij6-Fs-Ebb">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="715-OY-WUZ">
-                                <rect key="frame" x="66" y="269" width="32" height="30"/>
-                                <state key="normal" title="Foot">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="selectedRight:" destination="7i0-Ew-dpG" eventType="touchDown" id="w5d-D5-p45"/>
-                                    <segue destination="j1C-aa-jJx" kind="modal" id="chY-JE-WTu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-YO-Vjd">
-                                <rect key="frame" x="224" y="269" width="30" height="30"/>
-                                <state key="normal" title="car">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="selectedLeft:" destination="7i0-Ew-dpG" eventType="touchDown" id="T3s-Zr-tZy"/>
-                                    <segue destination="j1C-aa-jJx" kind="modal" id="a5Y-hy-oQR"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.81067293882369995" green="0.71607613563537598" blue="0.96660947799682617" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="715-OY-WUZ" firstAttribute="leading" secondItem="ij6-Fs-Ebb" secondAttribute="leadingMargin" constant="50" id="97f-dk-1he"/>
-                            <constraint firstAttribute="centerY" secondItem="ReG-YO-Vjd" secondAttribute="centerY" id="ioi-qx-OkX"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ReG-YO-Vjd" secondAttribute="trailing" constant="50" id="m0t-VB-M0B"/>
-                            <constraint firstAttribute="centerY" secondItem="715-OY-WUZ" secondAttribute="centerY" id="m1T-mh-fTC"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="leftChoice" destination="ReG-YO-Vjd" id="h6N-aa-hCl"/>
-                        <outlet property="rightChoice" destination="715-OY-WUZ" id="cLb-wm-313"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j4Z-aQ-LmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1874.6666666666667" y="174.18666666666667"/>
+            <point key="canvasLocation" x="789" y="174"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Sxb-CR-r5S">
@@ -388,7 +248,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fsa-5z-uzz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2599" y="174"/>
+            <point key="canvasLocation" x="1569" y="174"/>
         </scene>
     </scenes>
     <resources>
@@ -400,10 +260,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="chY-JE-WTu"/>
-        <segue reference="rDz-rA-BJr"/>
-        <segue reference="Dy2-tM-GzR"/>
-        <segue reference="Oyv-QU-YrY"/>
+        <segue reference="WaH-Me-RXA"/>
         <segue reference="nuc-Ao-Lqq"/>
     </inferredMetricsTieBreakers>
 </document>
