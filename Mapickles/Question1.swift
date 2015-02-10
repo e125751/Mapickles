@@ -12,6 +12,9 @@ class Question1: UIViewController {
     
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
     
+    @IBOutlet weak var rightChoice: UIButton!
+    @IBOutlet weak var leftChoice: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,13 +23,14 @@ class Question1: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
     
     @IBAction func selectedFoot(sender: AnyObject) {
-        appDelegate.answer.append("foot")
+        appDelegate.answer.append(rightChoice.currentTitle!)
     }
     
     @IBAction func selectedCar(sender: AnyObject) {
-        appDelegate.answer.append("car")
+        appDelegate.answer.append(leftChoice.currentTitle!)
     }
 }
