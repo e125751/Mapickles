@@ -23,10 +23,10 @@ class Question1: UIViewController {
     }
     
     @IBAction func selectedFoot(sender: AnyObject) {
-        appDelegate.answer1 = "foot"
+        appDelegate.answer.append("foot")
     }
     
     @IBAction func selectedCar(sender: AnyObject) {
-        appDelegate.answer1 = "car"
+        appDelegate.answer.append("car")
     }
 }
