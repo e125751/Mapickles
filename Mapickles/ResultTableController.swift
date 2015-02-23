@@ -12,6 +12,7 @@ import UIKit
 class ResultTableController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+    let jjson = JSON.fromURL("http://133.13.56.126:8080/g_food.json")
     
     //// Tableで使用する配列を設定する
     //let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
@@ -44,6 +45,7 @@ class ResultTableController: UIViewController, UITableViewDelegate, UITableViewD
         println("Value: \(appDelegate.answer[indexPath.row])")
         
         let showDetailController = ShowDetailController()
+        appDelegate.jstring = jjson[indexPath.row]["name"].asString!
         self.navigationController?.pushViewController(showDetailController, animated: true)
     }
     

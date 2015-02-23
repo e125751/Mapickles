@@ -10,18 +10,29 @@ import UIKit
 
 class ShowDetailController: UIViewController {
     
+    var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-
-        self.view.backgroundColor = UIColor.whiteColor()
+        let myLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
+        
+        myLabel.backgroundColor = UIColor.orangeColor()
+        myLabel.layer.masksToBounds = true
+        myLabel.layer.cornerRadius = 20.0
+        myLabel.text = appDelegate.jstring
+        myLabel.textColor = UIColor.whiteColor()
+        myLabel.shadowColor = UIColor.grayColor()
+        myLabel.textAlignment = NSTextAlignment.Center
+        myLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 200)
+        self.view.backgroundColor = UIColor.cyanColor()
+        self.view.addSubview(myLabel)
         
     }
     
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-    
     
 }
