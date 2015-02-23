@@ -46,6 +46,7 @@ class ResultTableController: UIViewController, UITableViewDelegate, UITableViewD
         
         let showDetailController = ShowDetailController()
         appDelegate.jstring = jjson[indexPath.row]["name"].asString!
+        appDelegate.jphoto = jjson[indexPath.row]["photo"].asString!
         self.navigationController?.pushViewController(showDetailController, animated: true)
     }
     

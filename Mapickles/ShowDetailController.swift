@@ -34,10 +34,10 @@ class ShowDetailController: UIViewController {
         var img = UIImage(data: imgData)
         
         let iv: UIImageView = UIImageView(image: img)
-        iv.frame = CGRectMake(0, 0, 120, 120)
+        iv.frame = CGRectMake(0, 0, 300, 300)
         self.view.addSubview(iv)
         
-        iv.layer.position = CGPoint(x: self.view.bounds.width/2, y: 250.0)
+        iv.layer.position = CGPoint(x: self.view.bounds.width/2, y: 400.0)
         
     }
     
