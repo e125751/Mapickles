@@ -9,8 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    @IBAction func unwindToTop(segue: UIStoryboardSegue){}
+    var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+    @IBAction func unwindToTop(segue: UIStoryboardSegue){
+        appDelegate.answer = [String]()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

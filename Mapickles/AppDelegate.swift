@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     var answer = [String]()
+    var jjson: JSON?
     var jstring: String = "hoge"
     var jphoto: String = "http://www.bandaigames.channel.or.jp/list/zgundam/images/ms_02.jpg"
 
