@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     var answer = [String]()
-    
+    var judge = [String]()
     
     var jjson: JSON?
     var jstring: String = "hoge"

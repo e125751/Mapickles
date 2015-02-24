@@ -63,7 +63,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedLeft:" destination="0cp-JY-tlQ" eventType="touchDown" id="0cT-9Y-zYz"/>
+                                    <action selector="car:" destination="0cp-JY-tlQ" eventType="touchDown" id="k6V-8D-ECn"/>
+                                    <action selector="firstSelect:" destination="0cp-JY-tlQ" eventType="touchUpInside" id="pCz-Lr-s7S"/>
                                     <segue destination="fQz-Mp-9OI" kind="modal" id="QfS-Yi-SnJ"/>
                                 </connections>
                             </button>
@@ -76,7 +77,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedRight:" destination="0cp-JY-tlQ" eventType="touchDown" id="PKD-EL-FeR"/>
+                                    <action selector="Foot:" destination="0cp-JY-tlQ" eventType="touchDown" id="cX7-bX-ITy"/>
+                                    <action selector="firstSelect:" destination="0cp-JY-tlQ" eventType="touchUpInside" id="XLt-ld-Rd2"/>
                                     <segue destination="fQz-Mp-9OI" kind="modal" id="nuc-Ao-Lqq"/>
                                 </connections>
                             </button>
@@ -89,10 +91,6 @@
                             <constraint firstItem="YSX-VF-Gbe" firstAttribute="leading" secondItem="GBU-pA-Qi1" secondAttribute="leadingMargin" constant="16" id="ZAe-oY-P6F"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="leftChoice" destination="mJw-QO-SlI" id="QxZ-Zb-XmT"/>
-                        <outlet property="rightChoice" destination="YSX-VF-Gbe" id="gsd-I8-qAl"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZIQ-lB-K1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -200,7 +198,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedRight:" destination="fQz-Mp-9OI" eventType="touchDown" id="noE-bJ-McH"/>
+                                    <action selector="secondSelect:" destination="fQz-Mp-9OI" eventType="touchUpInside" id="LQA-Il-zbT"/>
                                     <segue destination="j1C-aa-jJx" kind="modal" id="0kZ-t9-38q"/>
                                 </connections>
                             </button>
@@ -210,7 +208,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedLeft:" destination="fQz-Mp-9OI" eventType="touchUpInside" id="6wI-mf-Wjq"/>
+                                    <action selector="secondSelect:" destination="fQz-Mp-9OI" eventType="touchUpInside" id="p9x-XA-7k0"/>
                                     <segue destination="j1C-aa-jJx" kind="modal" id="WaH-Me-RXA"/>
                                 </connections>
                             </button>
@@ -223,10 +221,6 @@
                             <constraint firstItem="26H-LO-a3g" firstAttribute="top" secondItem="GFT-1G-EXM" secondAttribute="bottom" constant="183" id="t7h-1k-paE"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="leftChoice" destination="nIT-QJ-lco" id="gCU-ab-7pL"/>
-                        <outlet property="rightChoice" destination="26H-LO-a3g" id="Pdr-9o-Yz5"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cn0-7u-e3Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

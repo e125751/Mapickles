@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
     @IBAction func unwindToTop(segue: UIStoryboardSegue){
         appDelegate.answer = [String]()
+        appDelegate.judge = [String]()
     }
 
     override func viewDidLoad() {
