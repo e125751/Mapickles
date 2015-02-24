@@ -16,7 +16,7 @@ class ShowDetailController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
         
-        let myLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
+        let myLabel: UILabel = UILabel(frame: CGRectMake(0,0,400,50))
         myLabel.backgroundColor = UIColor.whiteColor()
         myLabel.layer.masksToBounds = true
         myLabel.layer.cornerRadius = 20.0
@@ -26,7 +26,7 @@ class ShowDetailController: UIViewController {
         myLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 100)
         self.view.addSubview(myLabel)
         
-        let opLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
+        let opLabel: UILabel = UILabel(frame: CGRectMake(0,0,400,50))
         opLabel.backgroundColor = UIColor.whiteColor()
         opLabel.layer.masksToBounds = true
         opLabel.layer.cornerRadius = 20.0
@@ -36,7 +36,7 @@ class ShowDetailController: UIViewController {
         opLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 150)
         self.view.addSubview(opLabel)
         
-        let clLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
+        let clLabel: UILabel = UILabel(frame: CGRectMake(0,0,400,50))
         clLabel.backgroundColor = UIColor.whiteColor()
         clLabel.layer.masksToBounds = true
         clLabel.layer.cornerRadius = 20.0
