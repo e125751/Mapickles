@@ -9,10 +9,17 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-   
+    var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        if(appDelegate.answer[0] == "Foot"){
+            appDelegate.jjson = JSON.fromURL("http://133.13.56.126:8080/901-2212.json")
+        }
+        if(appDelegate.answer[0] == "car"){
+            appDelegate.jjson = JSON.fromURL("http://133.13.56.126:8080/gc_food.json")
+        }
     }
     
     override func didReceiveMemoryWarning() {

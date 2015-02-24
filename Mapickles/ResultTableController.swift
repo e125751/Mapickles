@@ -12,7 +12,7 @@ import UIKit
 class ResultTableController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
-    let jjson = JSON.fromURL("http://133.13.56.126:8080/901-2212_f.json")
+    //let jjson = JSON.fromURL("http://133.13.56.126:8080/901-2212_f.json")
     
    
     override func viewDidLoad() {
@@ -42,13 +42,15 @@ class ResultTableController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("Num: \(indexPath.row)")
         
+        let st_json: JSON = appDelegate.jjson!
+        
         let showDetailController = ShowDetailController()
-        appDelegate.jstring = jjson[indexPath.row]["name"].asString!
-        appDelegate.jphoto = jjson[indexPath.row]["photo"].asString!
-        //appDelegate.telnumber = jjson[indexPath.row]["telnuber"].asString!
-        appDelegate.open = jjson[indexPath.row]["open"].asString!
-        appDelegate.genre = jjson[indexPath.row]["genre"].asString!
-        appDelegate.close = jjson[indexPath.row]["close"].asString!
+        appDelegate.jstring = st_json[indexPath.row]["name"].asString!
+        appDelegate.jphoto = st_json[indexPath.row]["photo"].asString!
+        //appDelegate.telnumber = st_json[indexPath.row]["telnuber"].asString!
+        appDelegate.open = st_json[indexPath.row]["open"].asString!
+        appDelegate.genre = st_json[indexPath.row]["genre"].asString!
+        appDelegate.close = st_json[indexPath.row]["close"].asString!
         
         self.navigationController?.pushViewController(showDetailController, animated: true)
     }

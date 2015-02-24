@@ -36,6 +36,15 @@ class ShowDetailController: UIViewController {
         opLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 150)
         self.view.addSubview(opLabel)
         
+        let clLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
+        clLabel.backgroundColor = UIColor.whiteColor()
+        clLabel.layer.masksToBounds = true
+        clLabel.layer.cornerRadius = 20.0
+        clLabel.text = appDelegate.close
+        clLabel.textColor = UIColor.blackColor()
+        clLabel.textAlignment = NSTextAlignment.Center
+        clLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 200)
+        self.view.addSubview(clLabel)
         
         let url = NSURL(string: appDelegate.jphoto)
         var err: NSError?
@@ -43,7 +52,7 @@ class ShowDetailController: UIViewController {
         var img = UIImage(data: imgData)
         
         let iv: UIImageView = UIImageView(image: img)
-        iv.frame = CGRectMake(0, 0, 300, 300)
+        iv.frame = CGRectMake(0, 0, 200, 200)
         self.view.addSubview(iv)
         
         iv.layer.position = CGPoint(x: self.view.bounds.width/2, y: 400.0)
