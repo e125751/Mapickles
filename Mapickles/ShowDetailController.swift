@@ -14,19 +14,28 @@ class ShowDetailController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
-        
         self.view.backgroundColor = UIColor.whiteColor()
         
-        myLabel.backgroundColor = UIColor.orangeColor()
+        let myLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
+        myLabel.backgroundColor = UIColor.whiteColor()
         myLabel.layer.masksToBounds = true
         myLabel.layer.cornerRadius = 20.0
         myLabel.text = appDelegate.jstring
-        myLabel.textColor = UIColor.whiteColor()
-        myLabel.shadowColor = UIColor.grayColor()
+        myLabel.textColor = UIColor.blackColor()
         myLabel.textAlignment = NSTextAlignment.Center
         myLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 100)
         self.view.addSubview(myLabel)
+        
+        let opLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
+        opLabel.backgroundColor = UIColor.whiteColor()
+        opLabel.layer.masksToBounds = true
+        opLabel.layer.cornerRadius = 20.0
+        opLabel.text = appDelegate.open
+        opLabel.textColor = UIColor.blackColor()
+        opLabel.textAlignment = NSTextAlignment.Center
+        opLabel.layer.position = CGPoint(x: self.view.bounds.width/2,y: 150)
+        self.view.addSubview(opLabel)
+        
         
         let url = NSURL(string: appDelegate.jphoto)
         var err: NSError?

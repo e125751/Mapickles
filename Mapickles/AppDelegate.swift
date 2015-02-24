@@ -14,8 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     var answer = [String]()
+    
     var jstring: String = "hoge"
     var jphoto: String = "http://www.bandaigames.channel.or.jp/list/zgundam/images/ms_02.jpg"
+    var telnumber: String?
+    var open: String?
+    var genre: String?
+    var close: String?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
