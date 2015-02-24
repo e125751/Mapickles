@@ -57,7 +57,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJw-QO-SlI">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJw-QO-SlI">
                                 <rect key="frame" x="151" y="239" width="176" height="100"/>
                                 <state key="normal" title="car" image="car.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -67,8 +67,8 @@
                                     <segue destination="fQz-Mp-9OI" kind="modal" id="QfS-Yi-SnJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSX-VF-Gbe">
-                                <rect key="frame" x="32" y="209" width="137" height="150"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSX-VF-Gbe">
+                                <rect key="frame" x="32" y="209" width="100" height="150"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" button="YES" image="YES"/>
                                 </accessibility>
@@ -83,10 +83,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="mJw-QO-SlI" secondAttribute="trailing" constant="50" id="3SN-rn-MN8"/>
-                            <constraint firstAttribute="centerY" secondItem="mJw-QO-SlI" secondAttribute="centerY" id="STx-0o-n7z"/>
-                            <constraint firstAttribute="centerY" secondItem="YSX-VF-Gbe" secondAttribute="centerY" id="jhE-gK-sFk"/>
-                            <constraint firstItem="YSX-VF-Gbe" firstAttribute="leading" secondItem="GBU-pA-Qi1" secondAttribute="leadingMargin" constant="50" id="oOk-Z7-HgZ"/>
+                            <constraint firstItem="mJw-QO-SlI" firstAttribute="top" secondItem="CKK-L0-vaj" secondAttribute="bottom" constant="219" id="8LS-dX-QTc"/>
+                            <constraint firstItem="YSX-VF-Gbe" firstAttribute="top" secondItem="CKK-L0-vaj" secondAttribute="bottom" constant="189" id="Oyv-kz-Fcc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mJw-QO-SlI" secondAttribute="trailing" constant="-23" id="TsB-cY-Cve"/>
+                            <constraint firstItem="YSX-VF-Gbe" firstAttribute="leading" secondItem="GBU-pA-Qi1" secondAttribute="leadingMargin" constant="16" id="ZAe-oY-P6F"/>
                         </constraints>
                     </view>
                     <connections>
@@ -116,9 +116,9 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mib-He-iwO">
-                                <rect key="frame" x="96" y="234" width="150" height="100"/>
-                                <state key="normal" title="結果" image="tuna.png">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mib-He-iwO">
+                                <rect key="frame" x="85" y="234" width="150" height="100"/>
+                                <state key="normal" image="tuna.png">
                                     <color key="titleColor" red="1" green="0.34531261959999998" blue="0.61762678729999998" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -129,8 +129,8 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="mib-He-iwO" secondAttribute="centerY" id="o1Z-3y-bUM"/>
-                            <constraint firstAttribute="centerX" secondItem="mib-He-iwO" secondAttribute="centerX" id="p1g-iO-bOu"/>
+                            <constraint firstAttribute="centerX" secondItem="mib-He-iwO" secondAttribute="centerX" id="23K-Lv-vHg"/>
+                            <constraint firstAttribute="centerY" secondItem="mib-He-iwO" secondAttribute="centerY" id="XRS-2R-dkC"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -194,7 +194,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26H-LO-a3g">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26H-LO-a3g">
                                 <rect key="frame" x="50" y="203" width="100" height="150"/>
                                 <state key="normal" image="osake.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -204,40 +204,27 @@
                                     <segue destination="j1C-aa-jJx" kind="modal" id="0kZ-t9-38q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbw-2I-lUE">
-                                <rect key="frame" x="261" y="263" width="32" height="30"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="selectedLeft:" destination="fQz-Mp-9OI" eventType="touchDown" id="7pW-ZR-DN0"/>
-                                    <segue destination="j1C-aa-jJx" kind="modal" id="OZP-Vm-KfM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIT-QJ-lco">
-                                <rect key="frame" x="141" y="228" width="190" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIT-QJ-lco">
+                                <rect key="frame" x="181" y="228" width="150" height="100"/>
                                 <state key="normal" image="gohan.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="selectedCenter:" destination="fQz-Mp-9OI" eventType="touchDown" id="KA5-8M-p5b"/>
+                                    <action selector="selectedLeft:" destination="fQz-Mp-9OI" eventType="touchUpInside" id="6wI-mf-Wjq"/>
                                     <segue destination="j1C-aa-jJx" kind="modal" id="WaH-Me-RXA"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97393637895584106" green="0.77582782506942749" blue="0.78058421611785889" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="nIT-QJ-lco" secondAttribute="centerX" id="APN-79-TTv"/>
-                            <constraint firstAttribute="centerY" secondItem="26H-LO-a3g" secondAttribute="centerY" id="S20-D9-ctT"/>
-                            <constraint firstAttribute="centerY" secondItem="nIT-QJ-lco" secondAttribute="centerY" id="Yzc-sH-9XJ"/>
-                            <constraint firstAttribute="centerY" secondItem="xbw-2I-lUE" secondAttribute="centerY" id="bjC-4q-MAA"/>
-                            <constraint firstItem="26H-LO-a3g" firstAttribute="leading" secondItem="adb-mj-awo" secondAttribute="leadingMargin" constant="50" id="f9f-pA-TcI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xbw-2I-lUE" secondAttribute="trailing" constant="50" id="k4q-by-3QQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nIT-QJ-lco" secondAttribute="trailing" constant="-27" id="7mW-iW-8dV"/>
+                            <constraint firstItem="26H-LO-a3g" firstAttribute="leading" secondItem="adb-mj-awo" secondAttribute="leadingMargin" constant="34" id="7oQ-2Q-et4"/>
+                            <constraint firstItem="nIT-QJ-lco" firstAttribute="top" secondItem="GFT-1G-EXM" secondAttribute="bottom" constant="208" id="Xik-Fn-soC"/>
+                            <constraint firstItem="26H-LO-a3g" firstAttribute="top" secondItem="GFT-1G-EXM" secondAttribute="bottom" constant="183" id="t7h-1k-paE"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="centerChoice" destination="nIT-QJ-lco" id="T8Q-cK-OkN"/>
-                        <outlet property="leftChoice" destination="xbw-2I-lUE" id="ggc-hq-Sa0"/>
+                        <outlet property="leftChoice" destination="nIT-QJ-lco" id="gCU-ab-7pL"/>
                         <outlet property="rightChoice" destination="26H-LO-a3g" id="Pdr-9o-Yz5"/>
                     </connections>
                 </viewController>
@@ -278,7 +265,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="WaH-Me-RXA"/>
         <segue reference="nuc-Ao-Lqq"/>
+        <segue reference="WaH-Me-RXA"/>
     </inferredMetricsTieBreakers>
 </document>
