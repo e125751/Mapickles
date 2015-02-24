@@ -27,7 +27,6 @@ class ResultTableController: UIViewController, UITableViewDelegate, UITableViewD
         myTableView.delegate = self
         self.view.addSubview(myTableView)
         
-        appDelegate.jjson = JSON.fromURL("http://133.13.56.126:8080/901-2212_f.json")
         
         // select result
         
