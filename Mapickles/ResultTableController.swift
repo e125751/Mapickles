@@ -62,7 +62,7 @@ class ResultTableController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath) as UITableViewCell
         
-        cell.textLabel!.text = "\(appDelegate.answer[indexPath.row])"
+        cell.textLabel.text = "\(appDelegate.answer[indexPath.row])"
         
         return cell
     }

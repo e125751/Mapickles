@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		683B68F61A9CD6A4003819D0 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B68F01A9CD6A4003819D0 /* car.png */; };
+		683B68F71A9CD6A4003819D0 /* dessert.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B68F11A9CD6A4003819D0 /* dessert.png */; };
+		683B68F81A9CD6A4003819D0 /* gohan.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B68F21A9CD6A4003819D0 /* gohan.png */; };
+		683B68F91A9CD6A4003819D0 /* human.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B68F31A9CD6A4003819D0 /* human.png */; };
+		683B68FA1A9CD6A4003819D0 /* osake.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B68F41A9CD6A4003819D0 /* osake.png */; };
+		683B68FB1A9CD6A4003819D0 /* tuna.png in Resources */ = {isa = PBXBuildFile; fileRef = 683B68F51A9CD6A4003819D0 /* tuna.png */; };
 		6A3CC4C81A8916B4000CF029 /* ResultTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4C71A8916B4000CF029 /* ResultTableController.swift */; };
 		6A3CC4CA1A893CFF000CF029 /* ShowDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4C91A893CFF000CF029 /* ShowDetailController.swift */; };
 		6A3CC4D61A89DCEA000CF029 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CC4D51A89DCEA000CF029 /* json.swift */; };
@@ -64,6 +70,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		683B68F01A9CD6A4003819D0 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = ../../../../Downloads/Trans/Trans/Images/car.png; sourceTree = "<group>"; };
+		683B68F11A9CD6A4003819D0 /* dessert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dessert.png; path = ../../../../Downloads/Trans/Trans/Images/dessert.png; sourceTree = "<group>"; };
+		683B68F21A9CD6A4003819D0 /* gohan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gohan.png; path = ../../../../Downloads/Trans/Trans/Images/gohan.png; sourceTree = "<group>"; };
+		683B68F31A9CD6A4003819D0 /* human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = human.png; path = ../../../../Downloads/Trans/Trans/Images/human.png; sourceTree = "<group>"; };
+		683B68F41A9CD6A4003819D0 /* osake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = osake.png; path = ../../../../Downloads/Trans/Trans/Images/osake.png; sourceTree = "<group>"; };
+		683B68F51A9CD6A4003819D0 /* tuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tuna.png; path = ../../../../Downloads/Trans/Trans/Images/tuna.png; sourceTree = "<group>"; };
 		6A3CC4C71A8916B4000CF029 /* ResultTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableController.swift; sourceTree = "<group>"; };
 		6A3CC4C91A893CFF000CF029 /* ShowDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailController.swift; sourceTree = "<group>"; };
 		6A3CC4D51A89DCEA000CF029 /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = json.swift; path = Mapickles/json.swift; sourceTree = "<group>"; };
@@ -186,6 +198,12 @@
 		7115A5611A892D22001A0DD3 /* Mapicklesimages */ = {
 			isa = PBXGroup;
 			children = (
+				683B68F01A9CD6A4003819D0 /* car.png */,
+				683B68F11A9CD6A4003819D0 /* dessert.png */,
+				683B68F21A9CD6A4003819D0 /* gohan.png */,
+				683B68F31A9CD6A4003819D0 /* human.png */,
+				683B68F41A9CD6A4003819D0 /* osake.png */,
+				683B68F51A9CD6A4003819D0 /* tuna.png */,
 				7182DC851A898EA800111121 /* anime1.png */,
 				7182DC871A898EA800111121 /* anime2.png */,
 				7182DC881A898EA800111121 /* anime3.png */,
@@ -327,6 +345,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683B68F81A9CD6A4003819D0 /* gohan.png in Resources */,
+				683B68F61A9CD6A4003819D0 /* car.png in Resources */,
 				7182DC9B1A898EA800111121 /* anime9.png in Resources */,
 				7115A5651A892D22001A0DD3 /* cycle.png in Resources */,
 				7115A5671A892D22001A0DD3 /* iTunesArtwork@2x.png in Resources */,
@@ -334,14 +354,18 @@
 				7182DC941A898EA800111121 /* anime3.png in Resources */,
 				7182DC9C1A898EA800111121 /* anime10.png in Resources */,
 				7115A5661A892D22001A0DD3 /* dart.png in Resources */,
+				683B68F91A9CD6A4003819D0 /* human.png in Resources */,
 				6A579E881A87C0950065083E /* Main.storyboard in Resources */,
+				683B68FB1A9CD6A4003819D0 /* tuna.png in Resources */,
 				7182DC971A898EA800111121 /* anime5.png in Resources */,
+				683B68F71A9CD6A4003819D0 /* dessert.png in Resources */,
 				7182DC931A898EA800111121 /* anime2.png in Resources */,
 				7182DC911A898EA800111121 /* anime1.png in Resources */,
 				6A579E6A1A87BFD20065083E /* LaunchScreen.xib in Resources */,
 				6A579E671A87BFD20065083E /* Images.xcassets in Resources */,
 				7182DC961A898EA800111121 /* anime4.png in Resources */,
 				7182DC981A898EA800111121 /* anime6.png in Resources */,
+				683B68FA1A9CD6A4003819D0 /* osake.png in Resources */,
 				7182DC9A1A898EA800111121 /* anime8.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
